@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/guaWak/backup/guawak-app-admin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/guaWak/guaWak_android" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/guaWak/guaWak_ios" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/guaWak/guaWak_ios copy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/guaWak/petSitter_admin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sistema_control_electoral" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test_soyyo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themeAdmin" vcs="Git" />
+  </component>
+</project>
