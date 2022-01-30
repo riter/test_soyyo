@@ -41,4 +41,19 @@
         <item name="android:windowBackground">@drawable/background_splash</item>
     </style>
 
+    <style name="TextInputFixedLabel">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginTop">@dimen/spacing_half</item>
+    </style>
+
+    <style name="TextInputFixedInput">
+        <item name="android:inputType">text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:background">@color/colorGreyLightTranslucent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">@dimen/spacing_half</item>
+        <item name="android:layout_marginBottom">@dimen/spacing_half</item>
+    </style>
+
 </resources>

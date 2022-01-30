@@ -17,6 +17,7 @@ import com.desarrollandoapp.testsoyyo.data.remote.AstronomyPicturesApiService
 import com.desarrollandoapp.testsoyyo.data.remote.AstronomyPicturesRepositoryImpl
 import com.desarrollandoapp.testsoyyo.data.retrofit.RetrofitBuilder
 import com.desarrollandoapp.testsoyyo.ui.DateManager
+import com.desarrollandoapp.testsoyyo.ui.picture_detail.PictureDetailActivity
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -93,7 +94,8 @@ class MainActivity : AppCompatActivity(), MainView {
     }
 
     override fun launchPictureUi(picture: AstronomyPicture) {
-
+        val intent = PictureDetailActivity.newInstance(this@MainActivity, picture)
+        startActivity(intent)
     }
 
     override fun showErrorList() {
