@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">TestSoyYo</string>
     <string name="image_description">image</string>
+    <string name="main_title">Astronomy Picture of the Day</string>
 </resources>
